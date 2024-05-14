@@ -7,14 +7,14 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your worker's environment variable if you worry about
   // your email being exposed in public.
-  userPrincipalName: process.env.USER_PRINCIPLE_NAME || 'Mookhyang16@mookhyang.my.id',
+  userPrincipalName: process.env.USER_PRINCIPLE_NAME || 'cnams@mookhyang.my.id',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
-  title: "Webtoon Collection OneDrive",
+  title: "Cnams Movie & Series collection",
 
   // The folder that you are to share publicly with onedrive-cf-index-ng. Use '/' if you want to share your root folder.
   baseDirectory: '/',
@@ -35,22 +35,22 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Powered by Webtoon Collection ❤️.',
+    'Powered by CnamS❤️.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: ['/Private', '/Demo/😎Another Private Folder Password 123'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  Group: 'https://t.me/webtoon_collection',
+  Group: '',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
     {
-      name: 'Channel Telegram',
-      link: 'https://t.me/Webtooncollection',
+      name: 'CnamS',
+      link: '',
     },
   ],
 
